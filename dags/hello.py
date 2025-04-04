@@ -3,7 +3,7 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
 default_args = {
-    'owner': 'dharshit,
+    'owner': 'harshit',
     'start_date': datetime(2025, 4, 4),
     'catchup': False
 }
